@@ -8,9 +8,50 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "State",
+"class": "Active",
+"language": "GDScript",
+"path": "res://activestate.gd"
+}, {
+"base": "State",
+"class": "Inactive",
+"language": "GDScript",
+"path": "res://inactivestate.gd"
+}, {
+"base": "Sprite",
+"class": "Opponent",
+"language": "GDScript",
+"path": "res://Enemy1.gd"
+}, {
+"base": "Node2D",
+"class": "State",
+"language": "GDScript",
+"path": "res://statemachine.gd"
+}, {
+"base": "Reference",
+"class": "StateFactory",
+"language": "GDScript",
+"path": "res://statefactory.gd"
+}, {
+"base": "State",
+"class": "Wait",
+"language": "GDScript",
+"path": "res://waitstate.gd"
+}, {
+"base": "Sprite",
+"class": "gubbe",
+"language": "GDScript",
+"path": "res://Player.gd"
+} ]
 _global_script_class_icons={
-
+"Active": "",
+"Inactive": "",
+"Opponent": "",
+"State": "",
+"StateFactory": "",
+"Wait": "",
+"gubbe": ""
 }
 
 [application]
