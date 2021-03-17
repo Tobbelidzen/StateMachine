@@ -26,7 +26,7 @@ func _process(delta):
 				$Info.text = "Jag attackerar!"
 				$AttackTimer.start(3)
 				
-
+			
 			
 		
 		

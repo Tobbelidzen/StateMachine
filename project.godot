@@ -8,9 +8,32 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "Active",
+"language": "GDScript",
+"path": "res://Active_state.gd"
+}, {
+"base": "Node2D",
+"class": "Inactive",
+"language": "GDScript",
+"path": "res://Inactive_state.gd"
+}, {
+"base": "Node2D",
+"class": "State",
+"language": "GDScript",
+"path": "res://state.gd"
+}, {
+"base": "Node2D",
+"class": "Wait",
+"language": "GDScript",
+"path": "res://Wait_state.gd"
+} ]
 _global_script_class_icons={
-
+"Active": "",
+"Inactive": "",
+"State": "",
+"Wait": ""
 }
 
 [application]
